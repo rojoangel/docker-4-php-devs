@@ -1,0 +1,7 @@
+web:
+  image: docker-4-php-devs/nginx
+  ports:
+    - "8080:80"
+  volumes:
+    - ./src:/var/www
+    - ./src/vhost.conf:/etc/nginx/sites-enabled/vhost.conf

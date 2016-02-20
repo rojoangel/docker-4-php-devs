@@ -25,4 +25,4 @@ docker stop [CONTAINER ID]
 
 docker rm [CONTAINER ID]
 
-
+docker-compose up -d
