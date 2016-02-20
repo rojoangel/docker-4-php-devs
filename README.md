@@ -2,6 +2,8 @@
 Inspired by http://www.newmediacampaigns.com/blog/docker-for-php-developers
 
 ## commands used:
+
+### docker
 docker build -t docker-4-php-devs/nginx .
 
 docker images
@@ -25,8 +27,10 @@ docker stop [CONTAINER ID]
 
 docker rm [CONTAINER ID]
 
-docker-compose up -d
-
 docker exec -it [CONTAINER_ID] /bin/bash
+
+### docker-compose
+
+docker-compose up -d
 
 docker-compose logs
