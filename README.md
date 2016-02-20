@@ -26,3 +26,7 @@ docker stop [CONTAINER ID]
 docker rm [CONTAINER ID]
 
 docker-compose up -d
+
+docker exec -it [CONTAINER_ID] /bin/bash
+
+docker-compose logs
