@@ -21,3 +21,8 @@ docker run \
 
 docker ps
 
+docker stop [CONTAINER ID]
+
+docker rm [CONTAINER ID]
+
+
